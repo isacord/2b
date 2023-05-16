@@ -1,24 +1,18 @@
-.{
-    margin: 0;
-    padding: 0;
-}
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
+    }
+    
+    body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
 
-body{
-
-}
-.cabecalho{
-    background-color: rgb(0, 255,242);
-    color: rgb(0, 0, 0);
-    display: block;
-    justify-content: baseline;
-    padding: auto;
-    margin; auto;
-}
-
-#logoalura{
-    width: 20%;
-}
-
-.listaitens{
-    display: inline-block;
-}
+    
